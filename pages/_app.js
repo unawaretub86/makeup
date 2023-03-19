@@ -33,7 +33,6 @@ export default function MyApp(props) {
       jssStyles.parentElement.removeChild(jssStyles);
     }
   }, []);
-  // Render app Repuestos Hot
   return (
     <React.Fragment>
       <Head>

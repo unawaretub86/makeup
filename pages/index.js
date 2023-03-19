@@ -1,11 +1,11 @@
 import Image from 'next/image'
 
-import Navbar from '../src/User/Navbar'
+import Navbar from '../src/components/User/Navbar'
 
 export default function Home() {
   return (
     <>
-      <h1>hi there</h1>
+      <Navbar />
     </>
   )
 }
