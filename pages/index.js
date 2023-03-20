@@ -1,11 +1,12 @@
-import Image from 'next/image'
-
-import Navbar from '../src/User/Navbar'
+import Banner from '../src/components/Home/Banner'
+import Layout from '@/components/User/Layout'
+import MoreProducts from '@/components/Home/moreProducts'
 
 export default function Home() {
   return (
-    <>
-      <h1>hi there</h1>
-    </>
+    <Layout>
+      <Banner />
+      <MoreProducts />
+    </ Layout>
   )
 }
