@@ -27,9 +27,7 @@ const Banner = (props) => {
                         fullHeightHover={true}
                         index={index}
                     >
-                        {/* set images and mapping  */}
                         <Image
-                            // onMouseMove={handleMouseMove}
                             className={classes.slideImg}
                             // src={
                             //     image.image_url
